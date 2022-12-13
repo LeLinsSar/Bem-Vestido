@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+body{
+    background-color: #f5f5f5;
+}
+.container{
+    margin: auto;
+    width: 1280px;
+}
+header{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    padding: 25px 37px;
+}
+.nav-bar{
+    display: flex;
+    gap: 30px;
+}
+.nav-bar h1{
+    font-size: 32px;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+    height: 2103px;
+}
+.section1{
+    display: flex;
+}
+.section2{
+    display: flex;
+    position: relative;
+    bottom: 84px;
+}
+.section3{
+    display: flex;
+    position: relative;
+    text-decoration: none;
+    bottom: 168px;
+}
+.interacao{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 20%;
+    color: #fff;
+    padding: 25px 20px;
+    background-color: rgba(0, 0, 0, .42);
+    box-shadow: 0 4px 5px rgba(0, 0, 0, .25);   
+    position: relative;
+    bottom: 83.5px;
+}
+.section1 .interacao{
+    gap: 63%;
+}
+.section2 .interacao{  
+    gap: 20%;   
+} 
+.like-deslike{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+.scetion1 .interacao .like-deslike{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.section3 .interacao{
+    gap: 42%;
+}
+footer{
+    margin-top: 10px;
+    background-color: #000;
+}
+footer h1{
+    text-align: center;
+    padding: 45px;
+}
+footer h1, footer p{
+    color: #fff;
+}
+footer p{
+    padding: 30px 20px 90px;
+    font-weight: 700;
+}
